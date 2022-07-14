@@ -3,10 +3,10 @@
   width: 240px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 20px 15px 20px;
   border: 1px solid black;
   background-color: white;
-  top: 90px;
+  top: 100px;
   right: 40px;
   z-index: 5;
   overflow-y: scroll;
@@ -17,7 +17,7 @@
   }
 
   .cart-items {
-    height: 240px;
+    min-height: 245px;
     display: flex;
     flex-direction: column;
   }
